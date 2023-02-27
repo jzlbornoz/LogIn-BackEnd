@@ -7,7 +7,7 @@ const port = 3000;
 myApp.use(express.json());
 
 myApp.get('/', (req, res) => {
-    res.send('HOLA MUNDO12');
+    res.send('HOLA MUNDO');
 });
 
 routerApi(myApp);
